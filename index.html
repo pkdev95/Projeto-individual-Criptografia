@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Code</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+
+
+<body>
+
+  
+    <header>
+
+        <h1 id="titulo">Secret.Code</h1>
+        
+    </header>
+   
+    <!--principal-->
+
+  <div class="envolve">
+    <main>
+    
+
+        <div class="container"> 
+
+            <div class="container-conteudo">
+
+                <div class="tipo-de-cod" class="cod">
+
+                    <h3>Escolha uma linguagem</h3>
+
+                    <select name="escolha-cod" id="cod-escolhido"> 
+                        <option value="select" id="opção-selecione" disabled selected>Selecione</option>   
+                        <option value="cifraCesar" id="opção-cifra">Cifra de César</option>
+                        <option value="base.64" id="opção-base">Base64</option>
+                    </select>
+
+                </div>
+
+             
+                <div id="divEscondida">
+                    <h4>Escolha um passo:</h3>
+                        <lable id="lable-passo" class="lable-msg">Passo: </lable>
+                        <input id="passo" type= "number" class="passo" min=1 max=26  placeholder="1-25">
+                
+                </div>
+                
+                <section class="texto-escondido"> 
+                    <h3 alt="Conjunto de técnicas para proteger uma informação entre o emissor e receptor.">Criptografia</h3>
+                    <lable id="lable-principal" class="lable-msg">Mensagem: </lable>
+                    <input id="msg-inicio" class="msg" placeholder="insira seu texto">
+                </section>
+
+           
+                <div class="radio-button">
+                      <input type="radio" name="radioInput" class ="radio-input" id="codificar" value="codificar">
+                      <label id="mk" for="codificar">Codificar</label>
+                </div>
+        
+                <div class="radio-button">
+                      <input type="radio" name ="radioInput" class ="radio-input" id="decodificar" value="decodificar">
+                    <label id="mj" for="decodificar">Decodificar</label> 
+                    
+                   
+                </div>
+
+
+          
+                <div class="btns">
+                    <button type="submit" class="btn-cod-ou-desc" id="btn-codificar">Codificar</button>
+                </div>
+             
+
+                <section class="texto-escondido"> 
+                    <lable id="lable-final" class="lable-msg" id="'lable-final">Resultado: </lable>
+                    <input id="msg-result" class="msg" placeholder="Resultado">
+                    <img id="czs" src="../imagens/coroa.png" width="20%"/>
+                </section>
+                
+
+            </div>
+
+        </div>
+        
+
+    </main>
+</div>
+<!--fim principal-->
+  
+    <footer>
+       
+        
+    
+    <a href="https://github.com/pkdev95"><i class="fa fa-github" style="font-size:35px; color:white"></i></a>
+    <a href="https://www.linkedin.com/in/patrick-da-costa-7326921b4/" target="_blank"><i class="fa-brands fa-linkedin-in fa-2x"></i></a>
+    <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp fa-2x"></i></i></a>
+
+    </footer>
+    
+
+    <script src="script/script.js"></script>
+</body>
+</html>

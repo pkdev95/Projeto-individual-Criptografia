@@ -1,0 +1,403 @@
+
+h1{
+    font-size: 90px;
+    text-align: center;
+    
+}
+
+h3{
+    color: white;
+    
+}
+
+#czs{
+    opacity: 0;
+}
+
+body {
+
+    background-image: url("../imagens/cripto1.gif");
+    background-size: cover;
+    line-height: 100%;
+    letter-spacing: 5%;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+
+}
+
+
+header {
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 10px;
+    max-width: 800px;
+    min-width: 300px;
+    border: 1px solid black;
+    background-color: black;
+
+    
+    
+}
+
+#titulo {
+    color: blue;
+    
+
+    
+    
+    
+}
+
+.fa-brands {
+    color: white;
+}
+
+.container {
+
+    font-size: var(--font-size-txt);
+    background-color: var(--cor-fundo);
+    border-radius: 10px;
+    text-align: center;
+    color: var(--cor-font);
+    padding: 1%;
+    border: 1px 5px solid black;
+    margin-right: -5%;
+    margin-left: -5%;
+    border: 1px solid black;
+    background-image: url("../imagens/cripto3.jpg");
+    opacity: 0.9;
+ 
+  
+    
+   
+
+}
+
+
+#cod-escolhido{
+    background-color: cadetblue;
+
+}
+
+
+select {
+
+    height: 35px;
+    width: 23%;
+    font-family: var(--font-txt2);
+    letter-spacing: 1px;
+    
+}
+
+#btn-codificar{
+    background-color: cadetblue;
+}
+
+#lable-principal{
+    color: white;
+    font-size: 22px;
+    background-color: black;
+    border-radius: 35px;
+    margin-left: 32%;
+    margin-right: 32%;
+    background-color: cadetblue;
+}
+
+
+
+.lable-msg {
+
+    font-size: var(--font-size-lable);
+    line-height: 100%;
+    letter-spacing: 5%;
+    position: relative;
+    display: grid;
+    margin-bottom: 2%;
+}
+
+.radio-button {
+   display: flex;
+   flex-direction: column;
+   margin-top: 5%;
+   border: 1px solid black;
+   background-color: cadetblue;
+   width: 30%;
+   border-radius: 25px;
+   margin-left: 35%;
+   
+}
+
+.btn-cod-ou-desc {
+
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 35px;
+    width: 15%;
+    font-family: var(--font-txt2);
+    letter-spacing: 2px;
+
+}
+
+
+#divEscondida {
+    display: none;
+}
+
+.msg {
+
+    display: grid; 
+    margin-bottom: 2%;
+    padding: 15px;
+    margin-top: 10px;
+    width: 30%;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+   
+    
+}
+
+.passo {
+    display: flex;
+    margin-bottom: 2%;
+    padding: 2px;
+    margin-top: 10px;
+    width: 25%;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    font-family: var(--font-txt2);
+}
+
+
+
+footer {
+
+    color: var(--cor-font);
+    background-color: var(--cor-fundo);
+    border: 8px 8px var(--cor-font);
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    font-size: var(--font-size-footer);
+    font-family: var(--font-logo);
+
+}
+
+a {
+    margin-left: 1%;
+}
+
+#msg-result{
+    background-color: #76b5c5;
+
+}
+
+#msg-inicio{
+    background-color: #76b5c5;
+}
+
+.envolve{
+    
+    text-align: center;
+    margin-left: 31%;
+    margin-right: 31%;
+    
+}
+
+#mk{
+    color: white;
+    font-size: 20px;
+    
+
+}
+
+
+
+#mj{
+ color:white;
+ font-size: 20px;
+}
+
+#lable-final{
+    color: white;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1800px) {
+
+    body {
+        background-size: auto 120%;
+        background-attachment: fixed, scroll;
+    }
+}
+
+@media only screen and (max-width: 1440px) { 
+
+
+    select {
+
+        width: 20%;
+        font-size: 12px;
+
+        transition: all 0.5s ease-in-out;
+    }
+
+
+    .btn-cod-ou-desc {
+
+        width: 50%;
+        font-size: 12px;
+
+        transition: all 0.5s ease-in-out;
+    }
+
+    .passo {
+        padding: 2px;
+        width: 20%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 975px) {
+
+    body {
+        background-size: auto 120%;
+        background-attachment: fixed, scroll;
+    }
+    
+    #titulo-principal {
+        font-size: 150%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .container {
+
+        font-size: 100%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    select {
+    
+        height: 35px;
+        width: 50%;
+        display: grid;
+        grid-column: auto;
+        margin: auto;
+        margin-top: 1%;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .btn-cod-ou-desc {
+
+        height: 32px;
+        width: 60%;
+        display: grid;
+        grid-column: auto;
+        margin: auto;
+        margin-top: 2%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        text-align: center;
+        font-size: 11px;
+        transition: all 0.5s ease-in-out;
+
+    }
+
+    .lable-msg {
+        margin-top: 2%;
+        transition: all 0.5s ease-in-out;
+        
+    }
+
+    ::placeholder, footer, .msg {
+        font-size: 10px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .passo {
+        padding: 2px;
+        width: 20%;
+        transition: all 0.5s ease-in-out;
+    }
+
+}
+
+@media only screen and (max-width: 501px) {
+
+    body {
+        background-size: auto 120%;
+        background-attachment: fixed, scroll;
+    }
+
+    #titulo-principal {
+        font-size: 170%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .container {
+
+        font-size: 100%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    select {
+    
+        height: 35px;
+        width: 50%;
+        display: grid;
+        grid-column: auto;
+        margin: auto;
+        margin-top: 1%;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .radio-button {
+
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 14px;
+    }
+
+    .btn-cod-ou-desc {
+
+        height: 32px;
+        width: 70%;
+        text-align: center;
+        display: grid;
+        grid-column: auto;
+        margin: auto;
+        margin-top: 2%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        font-size: 11px;
+        transition: all 0.5s ease-in-out;
+
+    }
+
+    .lable-msg {
+        margin-top: 2%;
+        transition: all 0.5s ease-in-out;
+        
+    }
+
+    ::placeholder, footer, .msg {
+        font-size: 10px;
+        transition: all 0.5s ease-in-out;
+    } 
+
+    .passo {
+        padding: 2px;
+        width: 20%;
+        transition: all 0.5s ease-in-out;
+    }
+
+}
